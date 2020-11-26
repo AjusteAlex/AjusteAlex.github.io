@@ -40,6 +40,7 @@
         box-sizing: border-box;
         cursor: default;
         border-radius: 20px;
+        font-weight: 600;
     }
     .btn-detail-projet a:hover{
         cursor: pointer;
