@@ -1,0 +1,12 @@
+
+.section-mention{
+    background-repeat: repeat!important;
+    background-size: contain!important;
+}
+.text-mention{
+    padding: 50px;
+    color: #fff;
+}
+.text-mention a{
+    color: #fff;
+}

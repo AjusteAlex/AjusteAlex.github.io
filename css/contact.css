@@ -1,0 +1,102 @@
+  .center-form{
+    margin-bottom: 50px;
+  }
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text],input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #aa653f;
+    border: 2px solid #c29075;
+    ;
+    color: 2px white;
+    padding: 12px 20px;
+
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #bd7954;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact-form {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+/* -------------------------FOOTER-------------------------- */
+
+footer{
+  width: 100%;
+  position: relative;
+  bottom: 20px;
+}
+.social-media{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.social-media p{
+  color: #fff;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 5px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+  color: #aa653f;
+}
+.fa-facebook {
+  background: rgb(243, 193, 146);
+  color: white;
+}
+.fa-linkedin {
+  background: rgb(238, 189, 144);
+  color: white;
+}
+.fa-instagram {
+  background: rgb(238, 189, 144);
+  color: white;
+}
+.text-footer{
+  text-align: center;
+  color: #fff;
+}
+
+
+@media (min-width: 769px) {
+  .center-form{
+    width: 600px;
+    margin: 25px auto 100px;
+  }
+  #nom{
+    width: 49%;
+    margin: 0px 5px 10px 0px;
+
+  }
+  #mail{
+    width: 47%;
+    margin: 0px 0px 10px 5px;
+
+  }
+  #msg{
+    width: 550px;
+  }
+}
