@@ -1,48 +1,57 @@
 
 
-.projet1{
-    width: 80%;
-    margin: 10px 10%;
-}
-.projet-photo{
-    width: 100%;
-}
-.projet-photo img{
-    width: 100%;
-}
-.text-projet{
-    backdrop-filter: blur(30px);
-    color: #fff;
-    width: 100%;
-}
-.text-projet h3{
-    text-align: center;
-    margin-bottom: 20px;
-}
-.text-projet p{
-    text-align: center;
-    padding: 20px;
-}
-.btn-detail-projet{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    .projet1{
+        width: 80%;
+        margin: 10px 10%;
+    }
+    .projet-photo{
+        width: 100%;
+    }
+    .projet-photo img{
+        width: 100%;
+    }
+    .text-projet{
+        backdrop-filter: blur(30px);
+        color: #fff;
+        width: 100%;
+    }
+    .text-projet h3{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .text-projet p{
+        text-align: center;
+        padding: 20px;
+    }
+    .btn-detail-projet{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
 
-}
-.btn-detail-projet button{
-    margin: 0;
-    border: 0;
-    position: relative;
-    width: 150px;
-    height: 50px;
-    text-align: center;
-    box-sizing: border-box;
-    cursor: default;
-    /* border-radius: 20px; */
-}
-.btn-detail-projet button:hover{
-    cursor: pointer;
+    }
+    .btn-detail-projet a{
+        background-color: #fff;
+        margin: 0;
+        border: 0;
+        position: relative;
+        width: 150px;
+        text-align: center;
+        box-sizing: border-box;
+        cursor: default;
+        border-radius: 20px;
+    }
+    .btn-detail-projet a:hover{
+        cursor: pointer;
+        text-decoration: none;
+        color: coral;
+    }
+
+@media (min-width: 700px) {
+    .projet1{
+        width: 560px;
+        margin: 20px auto 170px;
+    }
 }
 
 
