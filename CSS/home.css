@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+    #titre-home{
+        margin: auto 30px;
+    }
+    .home-text{
+        padding: 40px;
+    }
+    .home-text h2{
+        color: #fff;
+        font-size: 45px;
+        text-align: center;
+    }
+    .home-text p{
+        margin-top: 20px;
+        font-size: 25px;
+        color: #fff;
+        text-align: left;
+    }
+    .photo-profil{
+        margin: auto;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .photo-profil img{
+        width: 100%;
+    }
+    .container-home{
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .section-home{
+        position: relative;
+    }
+    /* .color-background{
+        background-color: #71451be6; // a terminer, couleur arrière plan texte+ img
+    } */
+    .home-text{
+        z-index: 1;
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        color: white;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .home-text h2{
+        font-size: 55px;
+    }
+    .home-text p{
+        width: 50%;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .photo-profil{
+        position: absolute;
+        left: 45%;
+        top: 32%;
+        overflow: hidden;
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .photo-profil img{
+        width: 100%;
+    }
+}
+
+@media (min-width :1024px){
+    .home-text p{
+        font-size: 30px;
+    }
+    .photo-profil{
+        top: 20%;
+        left: 57%;
+        width: 450px;
+        height: 450px;
+    }
+}
+  
+
+

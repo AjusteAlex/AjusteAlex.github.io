@@ -1,0 +1,90 @@
+/* @media (max-width: 768px){ */
+  @media (max-width: 894px){
+  .openbtn {
+    z-index: 990;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    color: #FFFF;
+  }
+
+  .main-menu {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    right: -100%;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: right 0.5s;
+    padding-top: 60px;
+  }
+  .main-menu a{
+    list-style: none;
+    padding: 25px 8px 8px 5px;
+  }
+  
+  .main-menu a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: color 0.3s;
+  
+  }
+  
+  .main-menu a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main-menu .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 28px;
+    font-size: 50px;
+    color: white;
+  }
+}
+
+
+@media (min-width: 895px) {
+  .openbtn, .closebtn {
+    display: none;
+  }
+  .main-menu{
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    width: 100%; 
+    left: 0;
+    right: auto;
+    justify-content: center;
+    z-index: 999999;
+  }
+     
+    
+  .main-menu a{
+    font-weight: 600;
+    font-size: 25px;
+    padding: 15px;
+    color: wheat;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .main-menu.scrolling {
+    backdrop-filter: blur(10px);
+} 
+  .main-menu.deletescrolling{
+    background-color: rgba(245, 245, 220, 0);
+  }
+
+
+
+
+
+
+
+
+}
