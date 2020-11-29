@@ -26,7 +26,6 @@
   }
 
   .main-menu a {
-    list-style: none;
     padding: 25px 8px 8px 35px;
     text-decoration: none;
     font-size: 25px;
@@ -34,10 +33,6 @@
     display: block;
     transition: color 0.3s;
   
-  }
-  
-  .main-menu a:hover {
-    color: #f1f1f1;
   }
   
   .main-menu .closebtn {
@@ -60,7 +55,6 @@
     position: fixed;
     width: 100%; 
     left: 0;
-    right: auto;
     justify-content: center;
     z-index: 999999;
     transition: none!important;
