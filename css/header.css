@@ -1,4 +1,5 @@
-/* @media (max-width: 768px){ */
+
+
   @media (max-width: 894px){
   .openbtn {
     z-index: 990;
@@ -6,6 +7,9 @@
     right: 30px;
     top: 20px;
     color: #FFFF;
+    background-color: #3f2204fa;
+    padding: 3px;
+    border-radius: 20px;
   }
 
   .main-menu {
@@ -15,20 +19,18 @@
     z-index: 998;
     top: 0;
     right: -100%;
-    background-color: #000000fc;
+    background-color: #3f2204f0;
     overflow-x: hidden;
     transition: right 0.5s;
     padding-top: 60px;
   }
-  .main-menu a{
-    list-style: none;
-    padding: 25px 8px 8px 25px;
-  }
-  
+
   .main-menu a {
+    list-style: none;
+    padding: 25px 8px 8px 35px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #fff;
     display: block;
     transition: color 0.3s;
   
