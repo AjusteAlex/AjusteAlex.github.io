@@ -172,12 +172,22 @@
             <div class="center-form">
                 <div class="contact-form">
                   
-                      <input type="text" id="nom" name="name" placeholder="Votre nom..">
-                  
-                      <input type="email" id="mail" name="email" placeholder="Votre email..">
-                  
-                      <textarea id="msg" name="message" placeholder="Ecrire votre messsage.." style="height:200px"></textarea>
-                  
+                      <input type="text" id="nom" name="name" placeholder="Votre nom.." required>
+                      <!-- <span class="error-form hidden">Veuillez renseigner votre nom</span> -->
+
+                      <input type="email" id="mail" name="email" placeholder="Votre email.." required>
+                      <!-- <span class="error-form hidden">Veuillez rentrer une adresse email</span> -->
+                        
+                      <textarea id="msg" name="message" placeholder="Ecrire votre messsage.." style="height:200px" required></textarea>
+                      <!-- <span class="error-form hidden">Veuillez entrer un message</span> -->
+
+
+                      <div class="checkbox">
+                        <input class="js-rgpd" type="checkbox" name="rgpd" value="1" required>
+                        <label for="rgpd" style="color: #fff;">En cochant cette case, j'accepte que mes données soient utilisées dans le cadre d'une prise de contact. Pour plus d'information voir les <a href="http://localhost/portfolio/mention.html">CGU</a>.</label>
+                        <!-- <span class="error-form hidden">Veuillez cocher les rgpd.</span> -->
+                     </div>
+                     
                       <input type="submit" name="submit" value="Envoyé">
                   
                     </form>

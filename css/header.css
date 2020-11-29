@@ -15,14 +15,14 @@
     z-index: 998;
     top: 0;
     right: -100%;
-    background-color: #111;
+    background-color: #000000fc;
     overflow-x: hidden;
     transition: right 0.5s;
     padding-top: 60px;
   }
   .main-menu a{
     list-style: none;
-    padding: 25px 8px 8px 5px;
+    padding: 25px 8px 8px 25px;
   }
   
   .main-menu a {
@@ -61,6 +61,7 @@
     right: auto;
     justify-content: center;
     z-index: 999999;
+    transition: none!important;
   }
      
     
