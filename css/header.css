@@ -2,7 +2,7 @@
 
   @media (max-width: 894px){
   .openbtn {
-    z-index: 990;
+    z-index: 999;
     position: fixed;
     right: 30px;
     top: 20px;
