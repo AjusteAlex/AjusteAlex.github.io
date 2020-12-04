@@ -1,6 +1,13 @@
 
 
   @media (max-width: 894px){
+    /* .header-logo{
+      width: 100px;
+      height: 100px;
+    }
+    .header-logo img{
+      width: 100%;
+    } */
   .openbtn {
     z-index: 999;
     position: fixed;
